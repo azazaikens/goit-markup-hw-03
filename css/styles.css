@@ -4,13 +4,14 @@ body {
     color: #434455;
 }
 header {
-
+    /* height: 72px; */
 }
 main {
 
 }
-footer {
+.footer {
 background-color: #2E2F42;
+height: 312px;
 }
 ul {
     list-style: none;
@@ -53,8 +54,10 @@ ul {
 }
 .index-section-one {
     background-color: #2E2F42;
+    height: 600px;
 }
 .main-header {
+    font-weight: bold;
     color: #ffffff;
     width: 496px;
     height: 120px;
@@ -75,4 +78,26 @@ ul {
 }
 .footer-text {
     color: #F4F4FD;
+}
+.portfolio-but {
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    color: #4d5ae5;
+    background-color: #F4F4FD;
+    cursor: pointer;
+}
+.portfolio-but:hover {
+    color: #ffffff;
+    background-color: #404bbf;
+}
+.portfolio-but:focus {
+    color: #ffffff;
+    background-color: #404bbf;
+}
+.photo-portfolio {
+    width: 360px;
+    height: 300px;
 }
