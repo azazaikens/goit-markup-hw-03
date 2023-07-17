@@ -1,6 +1,12 @@
+:root {
+    --white-color: #ffffff;
+    --blue-black-color: #2e2f42;
+    --blue-color: #404bbf;
+}
+
 body {
     font-family: "Roboto", sans-serif;
-    background-color: #ffffff;
+    background-color: var(--white-color);
     color: #434455;
 }
 header {
@@ -11,7 +17,7 @@ main {
 }
 .footer {
 background-color: #2E2F42;
-height: 312px;
+/* height: 312px; */
 }
 ul {
     list-style: none;
@@ -33,7 +39,7 @@ ul {
     color: #4d5ae5;
 }
 .logo-span {
-    color: #2e2f42;
+    color: var(--blue-black-color);
 }
 .footer-logo-span {
     color: #F4F4FD;
@@ -46,28 +52,28 @@ ul {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    color: #2e2f42;
+    color: var(--blue-black-color);
 }
 .address-li {
     font-weight: 400;
     
 }
 .index-section-one {
-    background-color: #2E2F42;
-    height: 600px;
+    background-color: var(--blue-black-color);
+    /* height: 600px; */
 }
 .main-header {
     font-weight: bold;
-    color: #ffffff;
-    width: 496px;
-    height: 120px;
+    color: var(--white-color);
+    /* width: 496px;
+    height: 120px; */
     text-align: center;
 }
 .main-but {
-    color: #ffffff;
+    color: var(--white-color);
     background: #4D5AE5;
-    width: 169px;
-    height: 56px;
+    /* width: 169px;
+    height: 56px; */
 }
 .h3-in-li {
     font-weight: 500;
@@ -90,14 +96,14 @@ ul {
     cursor: pointer;
 }
 .portfolio-but:hover {
-    color: #ffffff;
-    background-color: #404bbf;
+    color: var(--white-color);
+    background-color: var(--blue-color);
 }
 .portfolio-but:focus {
-    color: #ffffff;
-    background-color: #404bbf;
+    color: var(--white-color);
+    background-color: var(--blue-color);
 }
 .photo-portfolio {
-    width: 360px;
-    height: 300px;
+    /* width: 360px;
+    height: 300px; */
 }
