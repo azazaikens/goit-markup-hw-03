@@ -12,7 +12,6 @@ body {
 }
 
 /* header {
-    height: 72px;
 }
 
 main {
@@ -21,16 +20,11 @@ main {
 
 .footer {
 background-color: var(--blue-black-color);
-/* height: 312px; */
 }
 
 ul {
     list-style: none;
 }
-
-/* .wraper {
-    max-width: 1128px;
-} */
 
 .link {
     text-decoration: none;
@@ -58,7 +52,11 @@ ul {
     color: var(--blue-black-color);
 }
 
-.color-gray {
+.linc-navigation-addr {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
     color: var(--grey-color);
 }
 
@@ -101,7 +99,6 @@ ul {
 
 .index-section-one {
     background-color: var(--blue-black-color);
-    /* height: 600px; */
 }
 
 .main-header {
@@ -110,8 +107,6 @@ ul {
     line-height: 1.07;
     letter-spacing: 0.02em;
     color: var(--white-color);
-    /* width: 496px;
-    height: 120px; */
     text-align: center;
 }
 
@@ -124,8 +119,6 @@ ul {
     line-height: 1.5;
     letter-spacing: 0.04em;
     cursor: pointer
-    /* width: 169px;
-    height: 56px; */
 }
 
 .main-but:hover {
@@ -176,7 +169,7 @@ ul {
 }
 
 .team-list-li {
-    color: var(--white-color);
+    background-color: #FFFFFF;
 }
 
 .linc-photo {
