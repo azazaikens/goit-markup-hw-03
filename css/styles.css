@@ -55,7 +55,7 @@ ul {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    color: var(--blue-black-color);
+    color: var(--grey-color);
 }
 
 .linc-navigation:hover {
@@ -184,7 +184,9 @@ ul {
 }
 
 .footer-text {
+    line-height: 1.5;
     color: #F4F4FD;
+    letter-spacing: 0.02em;
 }
 
 .portfolio-but {
