@@ -132,7 +132,7 @@ ul {
     background-color: #404BBF;
 }
 
-.header3-in-li {
+.headerthree-in-li {
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
@@ -175,12 +175,13 @@ ul {
     text-decoration: none;
 }
 
-.portfolio-li-h2 {
+.portfolio-li-htwo {
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: var(--blue-black-color);
+    background-color: #FFFFFF;
 }
 
 .footer-text {
