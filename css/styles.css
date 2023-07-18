@@ -58,6 +58,10 @@ ul {
     color: var(--blue-black-color);
 }
 
+.color-gray {
+    color: var(--grey-color);
+}
+
 .linc-navigation:hover {
     color: #404bbf;
 }
@@ -169,6 +173,10 @@ ul {
     letter-spacing: 0.02em;
     text-transform: capitalize;
     color: var(--blue-black-color);
+}
+
+.team-list-li {
+    color: var(--white-color);
 }
 
 .linc-photo {
