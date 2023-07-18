@@ -50,6 +50,26 @@ ul {
     color: var(--blue-black-color);
 }
 
+.linc-navigation {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--blue-black-color);
+}
+
+.linc-navigation:hover {
+    color: #404bbf;
+}
+
+.linc-navigation:focus {
+    color: #404bbf;
+}
+
+.address {
+    font-style: normal
+}
+
 .ul-logo-address {
     text-decoration: none;
 }
@@ -138,11 +158,11 @@ ul {
     color: var(--blue-black-color);
 }
 
-.index-section-three {
+.index-section-four {
     background-color: #F4F4FD;
 }
 
-.index-main-header-section-three {
+.index-main-header-section-four {
     font-size: 36px;
     line-height: 1.11;
     text-align: center;
