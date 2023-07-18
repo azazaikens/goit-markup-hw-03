@@ -52,6 +52,14 @@ ul {
     color: var(--blue-black-color);
 }
 
+.linc-navigation:hover {
+    color: #404bbf;
+}
+
+.linc-navigation:focus {
+    color: #404bbf;
+}
+
 .linc-navigation-addr {
     font-weight: 500;
     font-size: 16px;
@@ -60,11 +68,11 @@ ul {
     color: var(--grey-color);
 }
 
-.linc-navigation:hover {
+.linc-navigation-addr:hover {
     color: #404bbf;
 }
 
-.linc-navigation:focus {
+.linc-navigation-addr:focus {
     color: #404bbf;
 }
 
