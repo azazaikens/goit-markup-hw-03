@@ -2,7 +2,26 @@
     --white-color: #ffffff;
     --blue-black-color: #2e2f42;
     --blue-color: #404bbf;
+    --blue-white-color: #4d5ae5;
     --grey-color: #434455;
+}
+
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+}
+
+.header {
+    border-bottom: 1px solid #e7e9fc;
 }
 
 body {
@@ -17,9 +36,10 @@ body {
     list-style: none;
 }
 
-.wraper {
-    max-width: 1158px;
+.container {
     margin: 0 auto;
+    padding: 0 15px;
+    max-width: 1158px;
 }
 .section {
     padding: 120px 0;
@@ -40,9 +60,7 @@ body {
 
 .ul-logo {
     display: flex;
-    column-gap: 40px;
-
-    margin-left: 76px;
+    gap: 40px;
 }
 
 .link {
@@ -50,6 +68,7 @@ body {
 }
 
 .logo {
+    margin-right: 76px;
     font-family: "Raleway", sans-serif;
     font-weight: 800;
     font-size: 18px;
@@ -104,18 +123,9 @@ body {
 
 .ul-logo-address {
     display: flex;
-    /* justify-content: space-between; */
     
-    
+    gap: 40px;
     text-decoration: none;
-}
-
-.address-li:last-child {
-    margin-left: 40px;
-}
-
-.footer-logo-span {
-    color: #F4F4FD;
 }
 
 .header-navigation {
@@ -124,10 +134,6 @@ body {
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: var(--blue-black-color);
-}
-
-.header-navigation-one {
-    margin-left: 76px;
 }
 
 .address-li {
@@ -158,11 +164,16 @@ body {
 }
 
 .main-but {
+    display: block;
+    min-width: 169px;
+    height: 56px;
     margin-top: 48px;
     padding: 16px 32px;
+    border: none;
     border-radius: 4px;
     color: var(--white-color);
     background: #4D5AE5;
+    background-color: var(--blue-white-color);
     font-family: "Roboto", sans-serif;
     font-weight: 500;
     font-size: 16px;
@@ -180,15 +191,19 @@ body {
 }
 
 .future {
-    padding-bottom: 0;
+    padding-top: 120px;
+    padding-bottom: 120px;
 }
 
 .small-list {
     display: flex;
-    justify-content: space-between;
-
-    /* margin-left: 24px; */
+    gap: 24px;
 }
+
+.calc {
+    width: calc((100% - 72px) / 4);
+}
+
 .headerthree-in-li {
     margin-bottom: 8px;
     font-weight: 500;
@@ -207,7 +222,7 @@ body {
 }
 
 .header-section-two {
-    padding-bottom: 72px;
+    margin-bottom: 72px;
     font-size: 36px;
     line-height: 1.11;
     text-align: center;
@@ -218,7 +233,12 @@ body {
 
 .photo-list {
     display: flex;
-    justify-content: space-between;
+
+    gap: 24px;
+}
+
+.calc-photo {
+    width: calc((100% - 48px) / 3);
 }
 
 /* ======================index-sector-four================= */
@@ -229,7 +249,7 @@ body {
 }
 
 .index-main-header-section-four {
-    padding-bottom: 72px;
+    margin-bottom: 72px;
     font-size: 36px;
     line-height: 1.11;
     text-align: center;
@@ -239,7 +259,8 @@ body {
 }
 
 .li-htwo {
-    margin-top: 32px;
+    margin-bottom: 8px;
+    text-align: center;
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
@@ -250,16 +271,22 @@ body {
 
 .team-list {
     display: flex;
-    justify-content: space-between;
+
+    gap: 24px;
 }
 
 .team-list-li {
+    border-radius: 0px 0px 4px 4px;
     background-color: #FFFFFF;
 }
 
+.name-and-job {
+    padding: 32px 0;
+
+}
+
 .team-job {
-    margin-top: 8px;
-    margin-bottom: 32px;
+    text-align: center;
 }
 
 /* ======================portfolio================= */
@@ -279,6 +306,7 @@ body {
 
     padding: 12px 24px;
     margin-bottom: 72px;
+    border-radius: 4px;
 }
 
 .portfolio-photo-list {
@@ -342,12 +370,15 @@ body {
 
 .footer {
     padding-top: 100px;
+    padding-bottom: 100px;
     background-color: var(--blue-black-color);
 }
 
+.footer-logo-span {
+    color: #F4F4FD;
+}
+
 .footer-text {
-    margin-top: 16px;
-    padding-bottom: 100px;
     max-width: 264px;
     line-height: 1.5;
     color: #F4F4FD;
@@ -355,7 +386,8 @@ body {
 }
 
 .logo-footer {
-    padding-top: 100px;
+    display: inline-block;
+    margin-bottom: 16px;
     font-family: "Raleway", sans-serif;
     font-weight: 800;
     font-size: 18px;
