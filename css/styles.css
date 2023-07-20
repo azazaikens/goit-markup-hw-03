@@ -4,6 +4,7 @@
     --blue-color: #404bbf;
     --blue-white-color: #4d5ae5;
     --grey-color: #434455;
+    --light-white-color: #e7e9fc;
 }
 
 .visually-hidden {
@@ -50,7 +51,6 @@ body {
     padding-bottom: 24px;
     display: flex;
     justify-content: space-between;
-    
 }
 
 .list-menu {
@@ -148,13 +148,12 @@ body {
     flex-direction: column;
     align-items: center;
 
-    padding-top: 180px;
-    padding-bottom: 180px;
+    padding: 188px 0;
     background-color: var(--blue-black-color);
 }
 
 .main-header {
-    width: 496px;
+    max-width: 496px;
     font-weight: bold;
     font-size: 56px;
     line-height: 1.07;
@@ -298,35 +297,57 @@ body {
 
 .portfolio-ul-but {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
+
+    gap: 24px;
+    margin-bottom: 72px;
 }
 
 .portfolio-but {
-    align-items: center;
-
     padding: 12px 24px;
     margin-bottom: 72px;
     border-radius: 4px;
+    border: 1px solid var(--light-white-color);
+    border: 1px solid transparent;
+}
+
+.portfolio-but:hover {
+    border: 1px solid transparent;
+    color: var(--white-color);
+    background-color: var(--blue-color);
+}
+
+.portfolio-but:focus {
+    border: 1px solid transparent;
+    color: var(--white-color);
+    background-color: var(--blue-color);
 }
 
 .portfolio-photo-list {
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
+
+    column-gap: 24px;
+    row-gap: 48px;
 }
 
 .portfolio-photo-li {
-    margin-bottom: 48px;
-    border: 1px solid var(--cornflower, #E7E9FC);
+
 }
 
 .linc-photo {
-    padding-top: 72px;
     text-decoration: none;
 }
 
+.name-and-category {
+    padding: 32px 16px;
+    margin-bottom: 8px;
+    border: 1px solid #e7e9fc;
+    border-top: none;
+}
+
 .portfolio-li-htwo {
-    margin-top: 32px;
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
@@ -337,7 +358,6 @@ body {
 
 .portfolio-p-in-li {
     margin-top: 8px;
-    margin-bottom: 32px;
     color: var(--grey-color);
     font-weight: 400;
     font-size: 16px;
@@ -354,16 +374,6 @@ body {
     color: #4d5ae5;
     background-color: #F4F4FD;
     cursor: pointer;
-}
-
-.portfolio-but:hover {
-    color: var(--white-color);
-    background-color: var(--blue-color);
-}
-
-.portfolio-but:focus {
-    color: var(--white-color);
-    background-color: var(--blue-color);
 }
 
 /* ======================footer================= */
