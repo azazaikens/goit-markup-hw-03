@@ -341,7 +341,6 @@ img {
     padding: 12px 24px;
     border-radius: 4px;
     border: 1px solid var(--light-white-color);
-    border: 1px solid transparent;
 }
 
 .portfolio-but:hover {
