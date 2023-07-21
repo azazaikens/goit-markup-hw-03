@@ -51,8 +51,8 @@ dd {
     margin: 0px;
 }
 
-ul[class],
-ol[class] {
+ul,
+ol{
     padding: 0;
 }
 
@@ -61,17 +61,10 @@ img {
     display: block;
 }
 
-input,
-button,
-textarea,
-select {
-    font: inherit;
-}
-
-button {
+/* button {
     padding: 0px;
     border: none;
-}
+} */
 
 /* ======================header================= */
 
